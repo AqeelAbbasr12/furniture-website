@@ -1,0 +1,13 @@
+.DarkBorderButton .btn {
+  border: 2px solid black;
+  border-radius: 0 !important;
+  width: 200px;
+  height: 60px;
+  color: black;
+  transition: 0.3s;
+}
+
+.DarkBorderButton .btn:hover {
+  background-color: black;
+  color: white;
+}

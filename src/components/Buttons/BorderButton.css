@@ -1,0 +1,23 @@
+.BorderButton .btn {
+  border: 1px solid white;
+  border-radius: 0 !important;
+  width: 200px;
+  height: 60px;
+  color: white;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.BorderButton .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .BorderButton .btn {
+    width: 120px;
+    height: 38px;
+    transition: 0.3s;
+    font-size: 10px;
+  }
+}

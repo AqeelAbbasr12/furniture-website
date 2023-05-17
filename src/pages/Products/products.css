@@ -1,0 +1,42 @@
+.productsPage .header {
+  background-image: url("../../assets/images/Slide.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+}
+
+.productsPage h3 {
+  font-size: 35px !important;
+  font-weight: bold !important;
+  line-height: 50px;
+}
+
+.productsPage .ourProducts {
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.productsPage .ourProducts small {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif !important;
+  color: var(--dimGrey-color);
+  border-left: none !important;
+  border-top: none !important;
+  border-right: none !important;
+}
+
+.productsPage .ourProducts small:hover {
+  cursor: pointer;
+  border: 1px solid var(--yellow-color);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.productsPage .ourProducts h2 {
+  font-size: 70px !important;
+  font-family: "Roboto Slab", serif !important;
+}
