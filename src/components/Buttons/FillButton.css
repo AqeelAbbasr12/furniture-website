@@ -1,0 +1,23 @@
+.FillButton .btn {
+  background-color: white;
+  border-radius: 0 !important;
+  width: 200px;
+  height: 60px;
+  color: black;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.FillButton .btn:hover {
+  background-color: var(--yellow-color);
+}
+
+@media (max-width: 480px) {
+  .FillButton .btn {
+    width: 120px;
+    height: 38px;
+    color: black;
+    transition: 0.3s;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,61 @@
+.DarkButton .DarkButton-btn:hover {
+  background-color: white !important;
+  color: var(--darkGrey-color) !important;
+}
+
+.DarkButton .DarkButton-btn {
+  transition: 0.5s;
+  font-weight: 500;
+}
+.DarkButton .DarkButton-btn .DarkButtonIcon {
+  transition: 0.5s;
+}
+
+.DarkButton .DarkButton-btn:hover .DarkButtonIcon {
+  fill: var(--darkGrey-color);
+}
+
+.DarkButton .DarkButton-btn-border:hover {
+  background-color: var(--yellow-color) !important;
+  border: 1px solid black;
+  color: black !important;
+}
+
+.DarkButton .DarkButton-btn-border {
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+.DarkButton .DarkButton-btn-border .DarkButtonIcon-border {
+  transition: 0.5s;
+}
+
+.DarkButton .DarkButton-btn-border:hover .DarkButtonIcon-border {
+  fill: black !important;
+}
+
+@media (max-width: 480px) {
+  .DarkButton-btn {
+    padding: 0 !important;
+    width: 120px;
+    height: 38px;
+    transition: 0.3s;
+    font-size: 10px !important;
+  }
+
+  .DarkButton-btn svg {
+    display: none !important;
+  }
+
+  .DarkButton-btn-border {
+    padding: 0 !important;
+    width: 120px;
+    height: 38px;
+    transition: 0.3s;
+    font-size: 10px !important;
+  }
+
+  .DarkButton-btn-border svg {
+    display: none !important;
+  }
+}

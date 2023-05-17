@@ -1,0 +1,77 @@
+.livingRoom .header {
+  background-image: url("../../../assets/images/Slide.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+}
+
+.livingRoom h1 {
+  font-family: "Roboto Slab", serif !important;
+  font-weight: bold;
+}
+
+.livingRoom .ourProducts {
+  background-color: white;
+  padding-top: 70px;
+}
+
+.livingRoom .ourProducts small {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif !important;
+  color: var(--dimGrey-color);
+}
+
+.livingRoom .ourProducts a {
+  text-decoration: none;
+}
+
+.livingRoom .ourProducts .pearl_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.livingRoom .ourProducts h2 {
+  font-size: 70px !important;
+  font-family: "Roboto Slab", serif !important;
+}
+
+.livingRoom .btn-circle.btn-lg {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 50px;
+  font-family: "Roboto Slab", serif !important;
+  background-color: #f0f0f1;
+}
+
+.livingRoom .btn-circle.btn-lg:hover {
+  background-color: var(--yellow-color);
+}
+
+.livingRoom .btn-active {
+  background-color: var(--yellow-color) !important;
+  color: white !important;
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 45vh !important;
+  }
+
+  .ourProject-data {
+    margin-bottom: 50px !important;
+    text-align: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .ourProject-data hr {
+    margin-right: 0px !important;
+  }
+
+  .livingRoom .ourProducts {
+    padding-top: 50px !important;
+  }
+}

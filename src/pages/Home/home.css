@@ -1,0 +1,304 @@
+.home .section1 {
+  background-image: url("../../assets/images/Slide.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.home .section1 h1 {
+  font-weight: bold !important;
+}
+
+/*What we produce*/
+.home .section-one {
+  background-image: url("../../assets/images/pattern.jpg");
+}
+
+.home .bottomLine {
+  border: 2px solid var(--yellow-color);
+  opacity: 100;
+  width: 60px;
+}
+
+.home .ourProducts {
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.home .ourProducts small {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif !important;
+  color: var(--dimGrey-color);
+  border-left: none !important;
+  border-top: none !important;
+  border-right: none !important;
+}
+
+.home .ourProducts small:hover {
+  cursor: pointer;
+  border: 1px solid var(--yellow-color);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.home .ProductCardLoop {
+  margin-top: 20px;
+}
+
+.home .chooseUS-icon {
+  background-color: var(--yellow-color);
+  padding: 18px;
+  border-radius: 50%;
+}
+
+.home .chooseUs h5 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif !important;
+  color: black;
+}
+
+.home .chooseUs p {
+  font-size: 16px;
+  color: var(--dimGrey-color);
+}
+
+.home .counter {
+  background-position: 50%;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(65, 65, 65, 0.73),
+      rgba(54, 54, 54, 0.73)
+    ),
+    url("../../assets/images/counter_bg.jpg");
+  height: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .vl {
+  border-left: 1px solid var(--grey-color);
+  height: 110px;
+}
+
+.home .counter span {
+  font-size: 44px !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 700 !important;
+  color: white !important;
+}
+
+.home .counter p {
+  font-size: 16px !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+.home .counter .container {
+  justify-content: space-evenly;
+}
+
+.home .counter h5 {
+  font-size: 44px !important;
+  color: white !important;
+  font-weight: 700;
+  margin-left: 5px !important;
+}
+
+.home .ourStory p {
+  color: var(--cardText-color);
+}
+
+.home .ourStory h4 {
+  font-family: "Roboto Slab", serif !important;
+  font-weight: bold;
+  font-size: 24px !important;
+}
+
+.what-we-produce {
+  display: flex;
+}
+
+.promo-section-data {
+  display: flex;
+}
+
+.promo-section-data col-6 {
+  display: flex;
+}
+
+.why-chooseUs-data {
+  display: flex;
+}
+
+.partners-left-img {
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .section1 .col-7 {
+    width: 95vw !important;
+    text-align: center;
+  }
+
+  .section1 .col-9 {
+    width: 95vw !important;
+    margin-top: 10px !important;
+  }
+
+  .header-buttons {
+    justify-content: center;
+  }
+
+  .what-we-produce {
+    text-align: center !important;
+  }
+
+  .what-we-produce .col-8 {
+    width: 95vw !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .section1 {
+    height: 50vh;
+  }
+
+  .what-we-produce {
+    display: block !important;
+  }
+
+  .what-we-produce .col-4 {
+    width: 95vw !important;
+  }
+
+  .what-we-produce .col-4 small {
+    line-height: 20px !important;
+  }
+
+  .LongCardsLoop {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .longCard-data {
+    padding: 20px 50px !important;
+  }
+
+  .section-one {
+    padding-bottom: 50px !important;
+  }
+
+  .ourProduct-buttons small {
+    font-size: 10px;
+    margin-right: 6px !important;
+  }
+
+  .ourProduct-buttons svg {
+    margin-right: 6px !important;
+  }
+
+  .hr-line {
+    margin: 0 !important;
+  }
+
+  .promo-section-data {
+    display: block;
+  }
+
+  .promo-section-data img {
+    height: 350px;
+  }
+
+  .promo-section-text {
+    padding: 0 !important;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90vw !important;
+    text-align: center;
+  }
+
+  .promo-section-text .col-8 {
+    width: 90vw !important;
+  }
+
+  .promo-section-text .hr-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .promo-section-img {
+    width: 90vw !important;
+  }
+
+  .promo-section .promo-btn {
+    width: 90vw !important;
+  }
+
+  .chooseUS-icon {
+    padding: 12px !important;
+  }
+
+  .chooseUS-icon svg {
+    height: 25px;
+  }
+
+  .why-chooseUs-data {
+    margin-bottom: 25px !important;
+  }
+
+  .home .counter span {
+    font-size: 24px !important;
+  }
+
+  .home .counter {
+    height: 200px !important;
+    margin: 0 !important;
+  }
+
+  .home .counter p {
+    font-size: 10px !important;
+  }
+
+  .home .counter .vl {
+    display: none !important;
+  }
+
+  .home .counter .d-flex {
+    text-align: center !important;
+  }
+
+  .home .counter h5 {
+    font-size: 20px !important;
+  }
+
+  .home .counter .plus {
+    justify-content: center !important;
+  }
+
+  .partners-left-img {
+    display: none !important;
+  }
+
+  .ourStory .col-6 {
+    width: 90vw !important;
+    text-align: center !important;
+  }
+
+  .ourStory .col-6 .col-12 {
+    justify-content: center !important;
+  }
+
+  .ourStory .col-6 .col-12 img {
+    height: 60px;
+  }
+}
